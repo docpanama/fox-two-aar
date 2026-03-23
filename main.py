@@ -62,7 +62,7 @@ def generate_aar(data: AARRequest):
     # Metadata
     doc.add_paragraph(f"Learner ID: {learner_id}")
     doc.add_paragraph(f"Certification Level: {data.certification_level}")
-    doc.add_paragraph(f"CCT Experience Level: {data.experience}")
+    doc.add_paragraph(f"Experience Level: {data.experience}")
     doc.add_paragraph(f"Scenario ID: {data.scenario_id}")
     doc.add_paragraph(f"Scenario Title: {data.scenario_title}")
 
